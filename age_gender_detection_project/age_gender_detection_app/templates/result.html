@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detection Result</title>
+</head>
+<body>
+    <h1>Detection Result</h1>
+
+    {% if result %}
+        <p>{{ result.gender }}, {{ result.age }}</p>
+        <img src="{{ result.result_path }}" alt="Detected Image" style="max-width: auto; height: auto;">
+    {% else %}
+        <p>No result available.</p>
+    {% endif %}
+</body>
+</html>
