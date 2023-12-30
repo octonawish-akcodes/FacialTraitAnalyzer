@@ -10,6 +10,8 @@ Gender Detection: Identifies the gender of faces with high precision.
 User-Friendly Interface: Intuitive web interface for seamless image upload and result presentation.
 Visual Insights: Presents detection results overlaid on the uploaded images for a comprehensive analysis.
 
+![image](https://github.com/octonawish-akcodes/FacialTraitAnalyzer/assets/76171953/48156218-fcb4-4914-9d45-ad5fbdf6b92e)
+
 ![Screenshot 2023-12-30 132324](https://github.com/octonawish-akcodes/FacialTraitAnalyzer/assets/76171953/3003e559-9b7a-44ed-9e47-0e760e9e6f5e)
 
 
