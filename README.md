@@ -1,6 +1,3 @@
-Certainly! Adding emojis can add a touch of fun and expressiveness to your README. Here's an updated version with emojis:
-
-
 # FacialTraitAnalyzer (Age and Gender Detection Web App) 👦👩🔍
 
 ## Overview:
