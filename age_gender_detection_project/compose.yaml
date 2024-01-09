@@ -1,0 +1,20 @@
+# docker-compose.yml
+
+version: '3'
+
+services:
+  # Define the 'web' service, which is our Django application
+  web:
+    # Build the Docker image using the current directory
+    build: .
+
+    # Command to run when the container starts, starting the Django development server
+    command: python manage.py runserver 0.0.0.0:8000
+
+    # Mount the current directory (your Django project) to /app inside the container
+    volumes:
+      - .:/app
+
+    # Map port 8000 on the host to port 8000 on the container
+    ports:
+      - "8000:8000"
