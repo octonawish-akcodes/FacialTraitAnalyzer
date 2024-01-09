@@ -19,6 +19,8 @@ Visual Insights: Presents detection results overlaid on the uploaded images for 
 
 ```plaintext
 .
+├── Dockerfile
+├── README.md
 ├── age_gender_detection_app
 │   ├── __init__.py
 │   ├── __pycache__
@@ -62,11 +64,13 @@ Visual Insights: Presents detection results overlaid on the uploaded images for 
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
+├── compose.yaml
 ├── db.sqlite3
 ├── manage.py
 ├── media
 │   └── uploads
 │       ├── 1487718277-screen-shot-2017-02-21-at-60424-pm.png
+│       ├── Screenshot_2023-12-26_204504.png
 │       ├── istockphoto-1147066751-612x612_h4qn96t.jpg
 │       └── result.png
 └── requirements.txt
