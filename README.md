@@ -136,6 +136,3 @@ FaceTraitsAnalyzer is a Django web application designed for age and gender detec
 
 4. **View the detection result, including the detected image, gender, and age.**
 
-```
-
-Feel free to adjust the emojis as you see fit!
